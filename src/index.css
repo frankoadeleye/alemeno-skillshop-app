@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.head_text {
+  @apply font-extrabold leading-[1.15] text-[#c53f00] sm:text-3xl;
+}
+
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
+.banner_img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+}
+
+.td-class {
+  @apply px-4 py-3 bg-gray-200;
+}
+
+.in-progress {
+  @apply text-gray-500;
+}
+
+.table-container {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.table-container > table {
+  overflow-x: scroll;
+  width: 1000px;
+}
+
+@media (max-width: 420px) {
+  .banner_img {
+    width: 200px;
+  }
+}
