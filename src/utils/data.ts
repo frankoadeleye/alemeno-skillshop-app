@@ -12,8 +12,7 @@ export const courses: Course[] = [
     rating: "4.24",
     schedule: "Tue&Thur, 6:00PM-8:00PM",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
-    thumbnail:
-      "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+    thumbnail: "https://i.ibb.co/yWhD5xm/data-structure.jpg",
     syllabus: [
       {
         week: 1,
@@ -51,8 +50,7 @@ export const courses: Course[] = [
     rating: "4.24",
     schedule: "Tue&Thur, 6:00PM-8:00PM",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
-    thumbnail:
-      "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+    thumbnail: "https://i.ibb.co/cJGLqMF/ezgif-com-gif-maker-1.jpg",
     syllabus: [
       {
         week: 1,
@@ -159,8 +157,7 @@ export const courses: Course[] = [
     rating: "4.24",
     schedule: "Tue&Thur, 6:00PM-8:00PM",
     prerequisites: ["Basic JavaScript knowledge", "Familiarity with React"],
-    thumbnail:
-      "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+    thumbnail: "https://i.ibb.co/prsPLpn/ezgif-com-gif-maker.jpg",
     syllabus: [
       {
         week: 1,
