@@ -25,9 +25,6 @@ State of the application is being managed with Redux toolkit. I am also using re
 
 Thank you,
 
-Sincerely, 
-
-Frank
 
 
 ## Available Scripts
