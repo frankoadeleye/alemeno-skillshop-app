@@ -11,8 +11,8 @@ export interface Course {
   instructor?: string;
   rating?: string;
   enrollmentStatus?: "Open" | "Closed" | "In Progress";
-  thumbnail?: string; //Link to the course thumbnail
-  duration?: string; // Duration of the course
+  thumbnail?: string;
+  duration?: string;
   schedule?: string;
   location?: string;
   prerequisites?: string[];

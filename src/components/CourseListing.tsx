@@ -50,7 +50,6 @@ function CourseListing() {
                 src={course?.thumbnail}
                 alt={course?.title}
               />
-              {/* --------- */}
               <div className="flex flex-wrap justify-end courses-center mb-2 absolute top-0 left-0 right-0">
                 <div className="flex flex-row gap-2 bg-[#c53f00] text-white items-center justify-center px-2 py-1">
                   {checkIfCompleted(course, DBCourses)
